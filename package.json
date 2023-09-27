@@ -4,11 +4,20 @@
   "description": "Naming app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "tsnd src/server/server.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "eslint": "^8.49.0",
+    "express": "^4.18.2",
+    "pr": "^0.3.2",
+    "prettier": "^3.0.3",
     "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
   }
 }
